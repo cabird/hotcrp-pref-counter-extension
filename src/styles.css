@@ -1,0 +1,36 @@
+#floatingDiv {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    background-color: white;
+    padding: 15px 20px;
+    border-bottom: 2px solid #ccc;
+    width: auto;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    border-radius: 0 0 5px 5px;
+}
+
+#floatingDiv label,
+#floatingDiv input,
+#floatingDiv span {
+    margin-right: 10px;
+}
+
+#thresholdInput {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    transition: border 0.3s;
+}
+
+#thresholdInput:hover {
+    border-color: #999;
+}
+
+#thresholdInput:focus {
+    border-color: #666;
+    outline: none;
+}
