@@ -9,9 +9,19 @@ This Chrome extension provides a convenient way to count and display the number 
 
 - **Floating Counter**: A floating UI element is added to the HotCRP review preferences page, allowing users to specify a threshold and see the count of reviews/preferences above that threshold.
 - **Dynamic Counting**: The count updates dynamically as users change their review preferences.
-- **User-friendly**: Designed with a clear and intuitive interface, making the review process more efficient.
+- **User-friendly**: Designed with a clear and intuitive interface with the count always visible.
 
 ## Installation
+
+There are two ways to install this extension: from the Chrome Web Store (the recommended way) or from source.
+
+### From the Chrome Web Store
+
+1. Navigate to the [Chrome Web Store page](https://chrome.google.com/webstore/detail/hotcrp-bidding-counter/okjgjgjgjgjgjgjgjgjgjgjgjgjgjgj).
+2. Click "Add to Chrome".
+3. Navigate to a HotCRP review preferences page to use the extension.
+
+### From Source
 
 1. Clone this repository
 ```
