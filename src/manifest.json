@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "HotCRP Bid/Preference Counter",
+  "version": "0.1.6",
+  "description": "Counts the number of bids/preferences above a threshold on HotCRP",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.hotcrp.com/reviewprefs*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }  
+}
+
