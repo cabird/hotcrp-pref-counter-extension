@@ -28,7 +28,7 @@ git clone https://github.com/cabird/hotcrp-pref-counter-extension.git
 ```
 2. Navigate to `chrome://extensions/` in your Chrome browser.
 3. Enable "Developer mode" (usually a toggle switch in the top right corner).
-4. Click "Load unpacked" and select the directory where you cloned this repository.
+4. Click "Load unpacked" and select the `src/` subdirectory within this repository.
 
 
 ## Usage
