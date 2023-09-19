@@ -34,3 +34,25 @@
     border-color: #666;
     outline: none;
 }
+
+/* Basic styling for the PrefTable */
+#PrefTable {
+    border-collapse: collapse;
+    width: 30%; /* Reduced table width */
+    margin: 20px auto; /* Center the table */
+    font-size: 0.8em; /* Reduced font size */
+}
+
+#PrefTable th, #PrefTable td {
+    border: 1px solid #ddd;
+    padding: 4px; /* Reduced padding */
+    text-align: center;
+}
+
+#PrefTable th {
+    background-color: #f2f2f2;
+}
+
+#PrefTable tr:hover {
+    background-color: #f5f5f5;
+}
