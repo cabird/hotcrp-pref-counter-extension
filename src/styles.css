@@ -1,3 +1,16 @@
+/* CSS to style the button */
+.material-icons {
+    /*font-size: 24px;*/ /* Adjust the icon size */
+    color: #007bff; /* Set the icon color */
+    cursor: pointer;
+    padding: 0px;
+    vertical-align: middle;
+}
+
+.material-icons:hover {
+    color: #0056b3;
+}
+
 #floatingDiv {
     position: fixed;
     top: 0;
@@ -5,7 +18,7 @@
     transform: translateX(-50%);
     z-index: 1000;
     background-color: white;
-    padding: 15px 20px;
+    padding: 10px 10px;
     border-bottom: 2px solid #ccc;
     width: auto;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -16,36 +29,22 @@
 #floatingDiv label,
 #floatingDiv input,
 #floatingDiv span {
-    margin-right: 10px;
-}
-
-#thresholdInput {
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    transition: border 0.3s;
-}
-
-#thresholdInput:hover {
-    border-color: #999;
-}
-
-#thresholdInput:focus {
-    border-color: #666;
-    outline: none;
+    margin-right: 0px;
 }
 
 /* Basic styling for the PrefTable */
 #PrefTable {
     border-collapse: collapse;
-    width: 30%; /* Reduced table width */
-    margin: 20px auto; /* Center the table */
+    /*width: 30%;*/ /* Reduced table width */
+    margin: 8px auto; /* Center the table */
     font-size: 0.8em; /* Reduced font size */
 }
 
 #PrefTable th, #PrefTable td {
     border: 1px solid #ddd;
-    padding: 4px; /* Reduced padding */
+    padding: 2px; /* Reduced padding */
+    padding-left: 8px;
+    padding-right: 8px;
     text-align: center;
 }
 
@@ -56,3 +55,4 @@
 #PrefTable tr:hover {
     background-color: #f5f5f5;
 }
+

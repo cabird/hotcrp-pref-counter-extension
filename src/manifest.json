@@ -3,12 +3,6 @@
   "name": "HotCRP Bid/Preference Counter",
   "version": "1.0.3",
   "description": "Counts the number of bids/preferences above a threshold when on the HotCRP Bidding Preferences page",
-  "background": {  
-    "service_worker": "background.js"  
-  },  
-  "permissions": [
-    "storage"
-  ],
   "content_scripts": [
     {
       "matches": ["https://*.hotcrp.com/reviewprefs*"],
