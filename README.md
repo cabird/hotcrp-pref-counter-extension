@@ -3,7 +3,9 @@
 
 This Chrome extension provides a convenient way to count and display the number of review preferences or bids above a specified threshold on HotCRP.
 
-![HotCRP Bidding Counter Screenshot](screenshot.png)
+![HotCRP Bidding Counter Screenshot](screenshot1.png) 
+
+![HotCRP Bidding Counter Screenshot](screenshot2.png)
 
 ## Features
 
