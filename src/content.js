@@ -58,11 +58,6 @@ function updatePreferenceCounts() {
         }
     });
 
-    console.log(`preference counts`, preferenceCounts);
-    for (const [pref, count] of Object.entries(preferenceCounts)) {
-        console.log(`pref ${pref} : ${count}`);
-    }
-
     document.getElementById('countText').textContent = positiveBids;
     renderCountsAsTable(preferenceCounts);
 }
